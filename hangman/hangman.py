@@ -67,6 +67,7 @@ def playhangman(randomword):
     if player_has_won:
         print("Congratulations. You won! The word was %s" % (randomword))
     else:
+        print("The word was %s" % (randomword))
         print("%s\n" % (randomshades[randint(0, len(randomshades))]))
 
 def run():

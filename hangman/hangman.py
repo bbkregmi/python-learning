@@ -39,7 +39,7 @@ def playhangman(randomword):
 
         print("\nYou have %d tries remaining" % (tries_left))
 
-        user_guess = raw_input("Please guess a letter: ")
+        user_guess = input("Please guess a letter: ")
 
         user_guess = user_guess.lower()
         
